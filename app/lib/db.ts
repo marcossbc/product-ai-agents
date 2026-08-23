@@ -10,7 +10,7 @@ export async function connectMongoDB() {
   }
 
   const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017';
-  const dbName = process.env.MONGODB_DB || 'ai_agents_db';
+  const dbName = process.env.MONGODB_DB || 'product_ai_agents';
 
   try {
     mongoClient = new MongoClient(uri);
