@@ -47,6 +47,7 @@ export const webpageScrapeTool = createTool({
       });
     }
 
+
     network.state.data.pages = pages;
 
     // ✅ Update MongoDB

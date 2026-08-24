@@ -1,5 +1,5 @@
 import { createTool } from "@inngest/agent-kit";
-import {z} from "zod";
+import { z } from "zod";
 export const saveSentimentsTool = createTool({
   name: "save_sentiments",
   description: "Save sentiment analysis to the database",
@@ -66,9 +66,10 @@ export const approveContentTool = createTool({
       return { success: false, message: "No runId" };
     }
 
+    // Save approval in network state
     network.state.data.approval = {
       approved: input.approved,
-      feedback: input.feedback || "", 
+      feedback: input.feedback || "", // ensure default empty string
       updatedAt: new Date(),
     };
 

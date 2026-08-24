@@ -21,7 +21,6 @@ export const routeToAgentTool = createTool({
         throw new Error(`Agent ${agent_name} not found`);
       }
 
-      // route to the agent
       return agent.name;
     }
 })

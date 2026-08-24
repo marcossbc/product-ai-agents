@@ -48,10 +48,8 @@ ${agents.map(a => `- ${a.name}: ${a.description}`).join('\n')}
 
       const tool = result.toolCalls[0];
 
-      // If done tool is called → stop network
       if (tool.tool.name === "done") return undefined;
 
-      // If route_to_agent tool is called → route to that agent
       if (tool.tool.name === "route_to_agent") {
         const agentName = (tool.content as any)?.data || (tool.content as string);
         return [agentName];

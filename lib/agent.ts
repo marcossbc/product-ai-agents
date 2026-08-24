@@ -61,6 +61,7 @@ export const sentimentAnalyzerAgent = createAgent({
   description: "Analyzes the content of scraped webpages and stores sentiment analysis",
 
   system: ({ network }) => {
+    
     const pages = network?.state.data.pages || [];
 
     console.log("Pages to analyze:", pages.length);
@@ -97,6 +98,7 @@ export const moderatorAgent = createAgent({
   description: "Orchestrates the workflow: search → scrape → sentiment analysis, monitors progress",
 
   system: ({ network }) => {
+    
     const state = network?.state.data || {};
     const resultsCount = state.results?.length || 0;
     const pagesCount = state.pages?.length || 0;
