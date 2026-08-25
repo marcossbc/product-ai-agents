@@ -1,7 +1,7 @@
 // import { NonRetriableError } from "inngest";
+import { getDB } from "@/lib/db";
 import { inngest } from "./client";
-import { getDB } from "../lib/db";
-import { priceAnalysisNetwork } from "../lib/network";
+import { priceAnalysisNetwork } from "@/lib/network";
 
 
 
