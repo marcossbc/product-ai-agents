@@ -24,7 +24,7 @@ The application uses **Next.js, Inngest, AI agents, Serper Search, MongoDB, and 
 Replace the image below with your own screenshot:
 
 ```md
-![AI Price Scout Screenshot](../product-ai-agents/scen.png)
+<!-- ![AI Price Scout Screenshot](../product-ai-agents/scen.png) -->
 ```
 
 ### Example
@@ -352,7 +352,7 @@ screenshots/
 3. Add this to the README:
 
 ```md
-![AI Price Scout](./screenshots/ai-price-scout.png)
+<!-- ![AI Price Scout](./screenshots/ai-price-scout.png) -->
 ```
 
 You can also add multiple screenshots:
@@ -362,7 +362,7 @@ You can also add multiple screenshots:
 
 ### Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+<!-- ![Dashboard](./screenshots/dashboard.png)
 
 ### Search Results
 
@@ -371,7 +371,7 @@ You can also add multiple screenshots:
 ### Sentiment Analysis
 
 ![Sentiment](./screenshots/sentiment.png)
-```
+``` -->
 
 ---
 
