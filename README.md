@@ -16,7 +16,7 @@ The application uses **Next.js, Inngest, AI agents, Serper Search, MongoDB, and 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
 
-## 📸 Screenshot
+
 
 
 > Add your project screenshot here.
@@ -24,7 +24,7 @@ The application uses **Next.js, Inngest, AI agents, Serper Search, MongoDB, and 
 Replace the image below with your own screenshot:
 
 ```md
-<!-- ![AI Price Scout Screenshot](../product-ai-agents/scen.png) -->
+
 ```
 
 ### Example
@@ -146,11 +146,11 @@ Frontend Results
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/marcossbc/product-ai-agents.git
 ```
 
 ```bash
-cd ai-price-scout
+cd product-ai-agents
 ```
 
 ### 2. Install dependencies
@@ -358,20 +358,8 @@ screenshots/
 You can also add multiple screenshots:
 
 ```md
-## 📸 Screenshots
 
-### Dashboard
-
-<!-- ![Dashboard](./screenshots/dashboard.png)
-
-### Search Results
-
-![Search Results](./screenshots/search-results.png)
-
-### Sentiment Analysis
-
-![Sentiment](./screenshots/sentiment.png)
-``` -->
+```
 
 ---
 
